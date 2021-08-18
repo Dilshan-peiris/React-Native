@@ -7,15 +7,15 @@
  */
 
 import React, {Component} from 'react';
-import Router from './src/navigation/router';
-import DeviceConnect from './src/components/deviceConnected';
-import DeviceNotConnect from './src/components/deviceNotConnected';
+import Router from './src/navigation/Router';
+import DeviceConnect from './src/components/DeviceConnected';
+import DeviceNotConnect from './src/components/DeviceNotConnected';
 class App extends Component {
   render() {
     return (
-      // <Router />
+      <Router />
       // <DeviceConnect />
-      <DeviceNotConnect />
+      // <DeviceNotConnect />
     );
   }
 }

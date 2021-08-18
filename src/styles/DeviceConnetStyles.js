@@ -16,7 +16,7 @@ module.exports = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: StatusBar.currentHeight,
-    // fontFamily: Fonts.PoppinsSemiBold,
+    fontFamily: Fonts.PoppinsSemiBold,
   },
   logoView: {
     flex: 1,
@@ -63,21 +63,5 @@ module.exports = StyleSheet.create({
     fontSize: 14,
     color: '#fff',
     fontWeight: 'bold',
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
   },
 });

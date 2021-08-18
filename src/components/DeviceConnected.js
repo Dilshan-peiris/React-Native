@@ -1,17 +1,12 @@
 import React, {Component} from 'react';
-import {Image, Text, View, TouchableOpacity} from 'react-native';
+import {Image, Text, TouchableOpacity, View} from 'react-native';
 
-import styles from '../styles/deviceConnetStyles';
+import styles from '../styles/DeviceConnetStyles';
+
 const logo = require('../assets/logo.png');
 const connected = require('../assets/connected.png');
-// const styles = require('../styles/deviceConnetStyles');
+
 class deviceConnected extends Component {
-  // componentDidMount() {
-  //   this.requestCameraPermission();
-  //   setTimeout(() => {
-  //     Actions.Welcome();
-  //   }, 2000);
-  // }
   render() {
     return (
       <View style={styles.body}>
@@ -33,4 +28,5 @@ class deviceConnected extends Component {
     );
   }
 }
+
 export default deviceConnected;

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Image, Text, View, TouchableOpacity} from 'react-native';
 
-import styles from '../styles/deviceNotConnectedStyles';
+import styles from '../styles/DeviceNotConnectedStyles';
 const logo = require('../assets/logo.png');
 const disconnected = require('../assets/disconnected.png');
 const connected = require('../assets/connected.png');

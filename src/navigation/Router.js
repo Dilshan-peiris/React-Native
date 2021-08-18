@@ -1,7 +1,7 @@
 import React from 'react';
 import {Router, Scene} from 'react-native-router-flux';
-import deviceConnected from '../components/deviceConnected';
-import deviceNotConnected from '../components/deviceNotConnected';
+import deviceConnected from '../components/DeviceConnected';
+import deviceNotConnected from '../components/DeviceNotConnected';
 const RouterComponent = () => {
   return (
     <Router>
