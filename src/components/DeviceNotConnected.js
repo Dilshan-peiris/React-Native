@@ -4,8 +4,6 @@ import {Image, Text, View, TouchableOpacity} from 'react-native';
 import styles from '../styles/DeviceNotConnectedStyles';
 const logo = require('../assets/logo.png');
 const disconnected = require('../assets/disconnected.png');
-const connected = require('../assets/connected.png');
-// const styles = require('../styles/deviceConnetStyles');
 class deviceNotConnected extends Component {
   // componentDidMount() {
   //   this.requestCameraPermission();
@@ -23,7 +21,7 @@ class deviceNotConnected extends Component {
           <Text style={styles.headerText}>DEVICE NOT CONNECTED</Text>
         </View>
         <View style={styles.disConnectedView}>
-          <Image source={connected} style={styles.disConnectedImage} />
+          <Image source={disconnected} style={styles.disConnectedImage} />
         </View>
         <View style={styles.tryAgainButton}>
           <TouchableOpacity style={styles.button} onPress={''}>

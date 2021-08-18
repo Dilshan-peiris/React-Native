@@ -10,12 +10,16 @@ import React, {Component} from 'react';
 import Router from './src/navigation/Router';
 import DeviceConnect from './src/components/DeviceConnected';
 import DeviceNotConnect from './src/components/DeviceNotConnected';
+import Login from './src/components/LoginScreen';
+import QRScreen from './src/components/QRScreen';
 class App extends Component {
   render() {
     return (
-      <Router />
+      // <Router />
       // <DeviceConnect />
       // <DeviceNotConnect />
+      // <Login />
+      <QRScreen />
     );
   }
 }
