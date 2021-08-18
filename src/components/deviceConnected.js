@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import {AppRegistry, Image, Text, View, TouchableOpacity} from 'react-native';
+import {Image, Text, View, TouchableOpacity} from 'react-native';
 
 import styles from '../styles/deviceConnetStyles';
 const logo = require('../assets/logo.png');
 const connected = require('../assets/connected.png');
 // const styles = require('../styles/deviceConnetStyles');
-import {Actions} from 'react-native-router-flux';
 class deviceConnected extends Component {
   // componentDidMount() {
   //   this.requestCameraPermission();

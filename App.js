@@ -8,13 +8,14 @@
 
 import React, {Component} from 'react';
 import Router from './src/navigation/router';
-import deviceConnected from './src/components/deviceConnected';
-
+import DeviceConnect from './src/components/deviceConnected';
+import DeviceNotConnect from './src/components/deviceNotConnected';
 class App extends Component {
   render() {
     return (
-      <Router />
-      // <deviceConnected />
+      // <Router />
+      // <DeviceConnect />
+      <DeviceNotConnect />
     );
   }
 }
