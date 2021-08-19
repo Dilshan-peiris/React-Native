@@ -12,6 +12,7 @@ import DeviceConnect from './src/components/DeviceConnected';
 import DeviceNotConnect from './src/components/DeviceNotConnected';
 import Login from './src/components/LoginScreen';
 import QRScreen from './src/components/QRScreen';
+import ScanQRScreen from './src/components/ScanQRCode';
 class App extends Component {
   render() {
     return (
@@ -19,7 +20,8 @@ class App extends Component {
       // <DeviceConnect />
       // <DeviceNotConnect />
       // <Login />
-      <QRScreen />
+      // <QRScreen />
+      <ScanQRScreen />
     );
   }
 }
